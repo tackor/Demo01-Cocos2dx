@@ -50,7 +50,7 @@
                 <OutlineColor A="255" R="255" G="0" B="0" />
                 <ShadowColor A="255" R="110" G="110" B="110" />
               </AbstractNodeData>
-              <AbstractNodeData Name="Button_MaskLayer" ActionTag="-529956289" Tag="10" IconVisible="False" LeftMargin="1123.1752" RightMargin="164.8248" TopMargin="134.5634" BottomMargin="579.4366" TouchEnable="True" FontSize="14" ButtonText="Button" Scale9Enable="True" LeftEage="15" RightEage="15" TopEage="11" BottomEage="11" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="16" Scale9Height="14" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
+              <AbstractNodeData Name="Button_MaskLayer" ActionTag="-529956289" Tag="10" IconVisible="False" LeftMargin="1123.1752" RightMargin="164.8248" TopMargin="134.5634" BottomMargin="579.4366" TouchEnable="True" FontSize="14" ButtonText="登录" Scale9Enable="True" LeftEage="15" RightEage="15" TopEage="11" BottomEage="11" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="16" Scale9Height="14" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
                 <Size X="46.0000" Y="36.0000" />
                 <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
                 <Position X="1146.1752" Y="597.4366" />
