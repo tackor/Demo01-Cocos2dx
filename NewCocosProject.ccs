@@ -1,0 +1,18 @@
+<Solution>
+  <PropertyGroup Name="NewCocosProject" Version="3.10.0.0" Type="CocosStudio" />
+  <SolutionFolder>
+    <Group ctype="ResourceGroup">
+      <RootFolder Name=".">
+        <Image Name="btn_normal.png" />
+        <Image Name="btn_pressed.png" />
+        <Image Name="HelloWorld.png" />
+        <Image Name="img_01.png" />
+        <Project Name="LoadingMaskLayer.csd" Type="Layer" />
+        <Project Name="MainScene.csd" Type="Scene" />
+        <Project Name="PlayScene.csd" Type="Scene" />
+        <Image Name="Snip20170922_1.png" />
+        <Project Name="WarmingLayer.csd" Type="Layer" />
+      </RootFolder>
+    </Group>
+  </SolutionFolder>
+</Solution>
