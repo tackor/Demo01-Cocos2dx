@@ -118,18 +118,34 @@ function MainScene:onCreate()
             --print(countT:getStringValue())
 
             if (countT:getStringValue() == "" or pwdT:getStringValue() == "") then
-                print("木有东西")
+
+                print("账号或密码为空提示")
 
                 --弹出提示框: 账号或密码错误
                 local warmLayer = cc.CSLoader:createNode("WarmingLayer.csb")
                 self:addChild(warmLayer)
+
+                local rootP = warmLayer:getChildByName("Panel_WarmBg")
+
+                -- 提示框的内容
+                local warmTitle = rootP:getChildByName("Text_WarmTitle")
+                local warmContent = rootP:getChildByName("Text_WarmContent")
+
+                --设置提示框的标题
+                warmTitle:setText("警  告")
+                warmContent:setText("警告: 你似乎没有输入账\n号或者密码, 所以是无法\n登陆的 哈哈哈!")
+
+                -- 提示框 确定按钮
+                local sureBtn = rootP:getChildByName("Button_WarmSureBtn")
+                sureBtn:addClickEventListener(function(sender)
+                    self:removeChild(warmLayer, true)
+                end)
 
             else
                 print("移除登录画面")
                 self:removeChild(maskLayer, true)
 
             end
-
 
         end)
         
